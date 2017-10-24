@@ -1,0 +1,393 @@
+
+
+#header{
+ background: linear-gradient(to right, #29323c, #4d5b6b); 
+margin-top:-32px;
+margin-bottom:5%;
+
+  font-family:  oblique;
+  color: #DC134C;
+  text-decoration: none;
+  text-transform: uppercase;
+ font-size:180%;
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 1;
+  text-shadow: #EDEDED 3px 2px 0;
+  position: relative;
+margin-left:3px;
+  text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+#header:before {
+  content:"tech";
+  position: absolute;
+  left: 20px;
+  top: 35px;
+color:#B22222;
+font-size:150%;
+
+}
+#header:after {
+  content:"Lab";
+  position: absolute;
+  left: 35px;
+  top: 66px;
+font-size:120%;
+display:inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin:auto;
+   
+    overflow: hidden;
+ background: linear-gradient(to right, #29323c, #485563); 
+    border-radius:5px;
+    font-style:oblique;
+margin-top:-70px;
+
+
+}
+
+li {
+    float: left;
+ padding-left:62px;
+padding-top:2%;
+    font-size:120%;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+padding-bottom:1%;
+
+}
+
+li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 6px 40px;
+
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #4a5663;
+border-radius:5px;
+}
+
+#search {
+border-radius:10px;
+  margin-top:-42px;
+margin-left:80%;
+position:absolute;
+height:15%;
+width:25%;
+
+}
+
+#search:focus {
+    width: 100%;
+
+}
+
+
+p.hr{
+margin-top:-40px;
+
+}
+body{
+background: linear-gradient(to right, #29323c, #5c748e); 
+
+}
+
+p.books{
+color:#7FFFD4;
+font-weight:bold;
+position:absolute;
+margin-left:18%;
+font-size:190%;
+font-style:oblique;
+margin-top:4px;
+
+
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+p.videos{
+
+
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+color:#7FFFD4;
+font-weight:bold;
+position:absolute;
+margin-left:70%;
+font-size:190%;
+font-style:oblique;
+margin-top:4px;
+}
+p.popbook {
+color:#F4A460;
+font-weight:bold;
+margin-left:6%;
+position:absolute;
+margin-top:30px;
+font-size:120%;
+font-style:oblique;
+}
+p.newbook{
+color:#F4A460;
+font-weight:bold;
+margin-left:28%;
+position:absolute;
+margin-top:30px;
+font-size:120%;
+font-style:oblique;
+}
+p.popvid{
+color:#F4A460;
+font-weight:bold;
+margin-left:55%;
+position:absolute;
+margin-top:30px;
+font-size:120%;
+font-style:oblique;
+}
+p.newvid{
+color:#F4A460;
+font-weight:bold;
+margin-left:83%;
+position:absolute;
+margin-top:30px;
+font-size:120%;
+font-style:oblique;
+}
+#html{
+position:absolute;
+margin-left:3%;
+margin-top:60px;
+
+}
+
+#js{
+position:absolute;
+
+margin-left:25%;
+margin-top:60px;
+}
+iframe.v1{
+margin-top:60px;
+margin-left:52%;
+}
+iframe.v2{
+position:absolute;
+margin-top:60px;
+margin-left:8%;
+}
+pre.html1{
+font-weight:bold;
+margin-left:7%;
+position:absolute;
+margin-top: -10px;
+color:#F0FFF0;
+
+}
+
+
+pre.js{
+font-weight:bold;
+margin-left:29%;
+position:absolute;
+margin-top: -10px;
+color:#F0FFF0;
+
+
+
+}
+pre.capv1{
+margin-left:55%;
+position:absolute;
+font-weight:bold;
+color:#F0FFF0;
+border:1px solid white;
+padding-left:5px;
+padding-right:5px
+
+}
+pre.capv2{
+margin-left:82%;
+position:absolute;
+font-weight:bold;
+color:#F0FFF0;
+border:1px solid white;
+padding-left:5px;
+padding-right:5px;
+}
+/*pre.fhr{
+margin-top:50%;
+color:red;
+position:absolute;
+}*/
+pre.footer{
+margin-top:-1%;
+color:white;
+font-weight:bold;
+position:absolute;
+}
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 12px;
+    margin: 8px ;
+    display: block;
+  
+
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    width:20%;
+}
+
+.cancelbtn {
+    padding: 12px 14px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 12%;
+ 
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 14px;
+color:white;
+}
+
+/* Clear floats */
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 50%%;
+    }
+}
+pre.tuto{
+font-family:oblique;
+text-align:center;
+font-weight:bold;
+font-size:190%;
+margin-top:2%
+color:#DB7093;
+}
+#chatbutt{
+font-size:100%;
+background: linear-gradient(to right, #ACB6E5, #74ebd5);
+padding:25px 15px 16px 15px;
+border-radius:8px;
+position:absolute;
+margin-left:12%;
+color:#8B008B;
+font-weight:bold;
+}
+#chatbutt:hover{
+background: linear-gradient(to left, #ACB6E5, #74ebd5);
+text-decoration:underline;
+color:black;
+
+
+}
+#vidbutt{
+color:#8B008B;
+font-size:100%;
+background: linear-gradient(to left, #ACB6E5, #74ebd5);
+padding:20px 15px 16px 15px;
+border-radius:8px;
+margin-left:20%;
+position:absolute;
+font-weight:bold;
+
+margin-left:65%;
+}
+#vidbutt:hover{
+
+background: linear-gradient(to right, #ACB6E5, #74ebd5);
+text-decoration:underline;
+color:black;
+
+}
+img.video{
+position:absolute;
+margin-left:65%;
+margin-top:5%;
+}
+
+img.chat{
+position:absolute;
+margin-left:10%;
+margin-top:5%;
+}
+@media screen and (max-width: 400px) {
+    li, ul , header , search ,background , body , footer , hr , pre , p , form , img{
+       width: 100%%;
+    }
+}
+
+table, th , td{
+background: linear-gradient(to right, #3f4c6b, #606c88); 
+color:white;
+padding-left:5px;
+font-style:oblique;
+border:1px solid white;
+border-collapse:collapse;
+margin-left:18%;	
+text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+background-repeat:no-repeat;
+padding:12px 12px 12px 12px;
+}
+td{
+text-align:center;
+color:#98FB98;
+font-weight:bold;
+}
+td:hover{
+text-align:center;
+color:black;
+
+}
+
+th{
+color:#FFFF00;
+font-weight:bold;
+font-size:140%
+}
+h2.fav{
+font-family:oblique;
+text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+font-size:180%
+}
+a.book{
+color:white;
+
