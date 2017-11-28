@@ -1,0 +1,52 @@
+/* 
+    Created on : Nov 18, 2017, 11:59:40 AM
+    Author     : Shaun
+*/
+#instructions {
+    font-family:oblique;
+    text-align:center;
+    font-weight:bold;
+    font-size:190%;
+    margin-top:2%;
+    color:#DB7093;
+}
+
+.tutorIcons {
+    height: 230px;
+    position: absolute;
+    margin-top: 5%;
+}
+
+#chatButton{
+    font-size:100%;
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    padding:25px 15px 16px 15px;
+    border-radius:8px;
+    position:absolute;
+    margin-left:12%;
+    color:#8B008B;
+    font-weight:bold;
+}
+
+#videoButton{
+    color:#8B008B;
+    font-size:100%;
+    background: linear-gradient(to left, #ACB6E5, #74ebd5);
+    padding:20px 15px 16px 15px;
+    border-radius:8px;
+    position:absolute;
+    font-weight:bold;
+    margin-left:65%;
+}
+
+#chatButton:hover{
+    background: linear-gradient(to left, #ACB6E5, #74ebd5);
+    text-decoration:underline;
+    color:black;
+}
+
+#videoButton:hover{
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    text-decoration:underline;
+    color:black;
+}
