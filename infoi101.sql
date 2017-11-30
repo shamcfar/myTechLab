@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 21, 2017 at 05:55 PM
+-- Generation Time: Nov 30, 2017 at 04:15 PM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.8
 
@@ -35,24 +35,25 @@ CREATE TABLE `books` (
   `ISBN` bigint(13) NOT NULL,
   `price` double DEFAULT NULL,
   `type` varchar(4) DEFAULT NULL,
-  `format` varchar(10) DEFAULT NULL
+  `format` varchar(10) DEFAULT NULL,
+  `book_image` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `books`
 --
 
-INSERT INTO `books` (`book_id`, `title`, `author`, `ISBN`, `price`, `type`, `format`) VALUES
-(1, 'A Gift of Fire', 'Sara Baase', 9780132492676, 25.33, 'New', 'Paperback'),
-(2, 'Discrete Mathematics with Application', 'Susanna S. Epp', 495391328, 30.85, 'New', 'Paperback'),
-(3, 'Designing for Interaction', 'Dan Saffer', 321643399, 41.6, 'New', 'Paperback'),
-(4, 'JavaScript and JQuery: Interactive Front-End Web Development', 'Jon Duckett', 1118531647, 11.99, 'New', 'Paperback'),
-(5, 'Principles of Information Systems', 'Ralph M. Stair & George W. Reynolds', 1285867165, 95.73, 'New', 'Hardcover'),
-(6, 'The Object oriented thought process,', 'Matt Weissfeld & Addison Wesley.', 9780321861276, 19.72, 'New', 'Paperback'),
-(7, 'Client-Side Data Storage: Keeping It Local', 'Raymond Camden', 1491935111, 24.23, 'New', 'Paperback'),
-(8, 'Information Technology Project Management', 'Kathy Schwalbe', 1285452348, 81.49, 'New', 'Paperback'),
-(9, 'Doing Data Science', ' Cathy O\'Neil & Rachel Schutt ', 9781449358655, 32.95, 'New', 'Paperback'),
-(10, 'Introduction to Data Mining', 'Tan Pang-Ning, Steinbach Michael, Kumar Vipin', 321321367, 136.97, 'New', 'Hardcover');
+INSERT INTO `books` (`book_id`, `title`, `author`, `ISBN`, `price`, `type`, `format`, `book_image`) VALUES
+(1, 'A Gift of Fire', 'Sara Baase', 9780132492676, 25.33, 'New', 'Paperback', 'http://t1.gstatic.com/images?q=tbn:ANd9GcTyYD0uNs01ZnlQD8QwKNWQU7ZgaHV0X8f1qTxvH6Jou4HMGYI8'),
+(2, 'Discrete Mathematics with Application', 'Susanna S. Epp', 495391328, 30.85, 'New', 'Paperback', 'https://prodimage.images-bn.com/pimages/9780495391326_p0_v1_s600x595.jpg'),
+(3, 'Designing for Interaction', 'Dan Saffer', 321643399, 41.6, 'New', 'Paperback', 'https://i5.walmartimages.com/asr/7d284632-1efe-4fdb-b961-e758daa2e8ce_1.dfd6477c297a4625989748fa18c47111.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF'),
+(4, 'JavaScript and JQuery: Interactive Front-End Web Development', 'Jon Duckett', 1118531647, 11.99, 'New', 'Paperback', 'https://img.thriftbooks.com/api/images/l/daed4f53240a9f02dcaf9d5fd2a6b920788f327e.jpg'),
+(5, 'Principles of Information Systems', 'Ralph M. Stair & George W. Reynolds', 1285867165, 95.73, 'New', 'Hardcover', 'https://prodimage.images-bn.com/pimages/9781285867168_p0_v2_s550x406.jpg'),
+(6, 'The Object oriented thought process,', 'Matt Weissfeld & Addison Wesley.', 9780321861276, 19.72, 'New', 'Paperback', 'https://prodimage.images-bn.com/pimages/9780321861276_p0_v2_s600x595.jpg'),
+(7, 'Client-Side Data Storage: Keeping It Local', 'Raymond Camden', 1491935111, 24.23, 'New', 'Paperback', 'https://prodimage.images-bn.com/pimages/9781491935118_p0_v4_s600x595.jpg'),
+(8, 'Information Technology Project Management', 'Kathy Schwalbe', 1285452348, 81.49, 'New', 'Paperback', 'https://cs.cheggcdn.com/covers2/42700000/42708228_1454694990_Width288.jpg'),
+(9, 'Doing Data Science', ' Cathy O\'Neil & Rachel Schutt ', 9781449358655, 32.95, 'New', 'Paperback', 'https://prodimage.images-bn.com/pimages/9781449358655_p0_v7_s600x595.jpg'),
+(10, 'Introduction to Data Mining', 'Tan Pang-Ning, Steinbach Michael, Kumar Vipin', 321321367, 136.97, 'New', 'Hardcover', 'https://prodimage.images-bn.com/pimages/9780321321367_p0_v1_s550x406.jpg');
 
 -- --------------------------------------------------------
 
