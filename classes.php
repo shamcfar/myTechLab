@@ -6,7 +6,7 @@ require_once 'includes/header.php';
 require_once 'includes/database.php';
 
 //select statement
-$sql = "SELECT school, department, class_number, class_name, classes.book_id, books.book_id, title FROM classes, books WHERE classes.book_id = books.book_id ";
+$sql = "SELECT school, department, class_number, class_name, classes.book_id, books.book_id, title FROM classes, books WHERE classes.book_id = books.book_id";
 
 //execute the query
 $query = $conn->query($sql);
@@ -33,9 +33,9 @@ if (!$query) {
             <th>Book Needed:</th>
         </tr>
         <?php
-        //create a while loop here to insert one row for each user.
+        //create a while loop here to insert one row for each class.
         //inser a row into the table for each row of data
-        while (($row = $query->fetch_assoc()) !== NULL){
+        while (($row = $query->fetch_assoc()) /*!== NULL*/){
         echo "<tr>";
         echo "<td>", $row['school'], "</td>";
         echo "<td>", $row['department'], "</td>";

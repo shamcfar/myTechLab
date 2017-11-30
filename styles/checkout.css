@@ -1,0 +1,17 @@
+/* 
+    Created on : Nov 30, 2017, 11:47:38 AM
+    Author     : Shaun
+*/
+
+#title {
+    color:#FFFF00;
+    font-weight:bold;
+    text-align: center;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+#thanks {
+    text-align:center;
+    color:#98FB98;
+    font-weight:bold;
+}

@@ -57,6 +57,11 @@ if (!$query) {
                 <p><?php echo $row['type']; ?></p>
                 <p><?php echo $row['format']; ?></p>
             </td>
+            <td class="col4">
+            <a href="addtocart.php?id=<?php echo $row['book_id'] ?>">
+                <img src="images/addtocart_button.png" />
+            </a>
+            </td>
         </tr>
     </table>
 

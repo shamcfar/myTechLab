@@ -1,3 +1,20 @@
+<?php
+if (session_status() == PHP_SESSION_NONE) {
+session_start();
+}
+
+$count = 0;
+
+//retrieve cart content
+if (isset ($_SESSION['cart'])) {
+    $cart = $_SESSION['cart'];
+    
+    if ($cart) {
+        $count = array_sum($cart);
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html>
     <head>

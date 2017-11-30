@@ -1,5 +1,5 @@
 /* 
-    Created on : Nov 21, 2017, 10:40:50 AM
+    Created on : Nov 30, 2017, 11:45:58 AM
     Author     : Shaun
 */
 
@@ -29,4 +29,17 @@ th{
     color:#FFFF00;
     font-weight:bold;
     font-size:140%
+}
+
+h1 {
+    color:#FFFF00;
+    font-weight:bold;
+    text-align: center;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+p {
+    text-align:center;
+    color:#98FB98;
+    font-weight:bold;
 }

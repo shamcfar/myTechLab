@@ -1,3 +1,7 @@
+#body {
+    height: 150px;
+}
+
 .bookcover {
     height: 230px;
     position:absolute;
@@ -35,7 +39,7 @@
 #captions {
     font-weight: bold;
     color: #F0FFF0;
-	margin-top: 275px;
+    margin-top: 275px;
     float: left;
     
 }
@@ -51,7 +55,7 @@
     position:absolute;
     font-weight:bold;
     color:#F0FFF0;
-    border:1px solid white;
+    /*border:1px solid white;*/
     padding-left:5px;
     padding-right:5px;
 }

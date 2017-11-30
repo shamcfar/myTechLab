@@ -1,7 +1,6 @@
 <?php
 $title = "My Tech Lab";
 $style = '<link rel="stylesheet" href="styles/home.css" />';
-
 require_once 'includes/header.php';
 ?>
 
@@ -20,20 +19,20 @@ require_once 'includes/header.php';
 
 
     <div id="captions">
-        <pre class="bookCaption" style="margin-left:6%;">
+        <pre class="bookCaption">
             HTML &amp; CSS
             Price:<span style="text-decoration: line-through;color: red;">$30.21</span>
             $15.99
         </pre>
-        <pre class="bookCaption" style="margin-left:29%;">
+        <pre class="bookCaption" style="margin-left:23%;">
             JavaScript
             Price: $49.59
         </pre>
-        <pre class="vidCaption" style="margin-left:55%;">
+        <pre class="vidCaption" style="margin-left:50%;">
             CSS Tutorial for
             Beginners
         </pre>
-        <pre class="vidCaption" style="margin-left:82%;">
+        <pre class="vidCaption" style="margin-left:78%;">
             HTML &amp; CSS Tutorial
         </pre>
     </div><!--captions-->
