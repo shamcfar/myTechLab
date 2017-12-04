@@ -1,0 +1,79 @@
+<html>
+    <link rel="stylesheet" href="sign.css">
+    <head>
+        <title>student register</title>
+    </head>
+<script>  
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+    var email=document.myform.email.value; 
+    var userid=document.myform.userid.value; 
+  
+
+     if(userid.length<8){  
+  alert("User ID must be  8 characters long.");  
+  return false;  
+     } 
+    
+    else if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+ else if(email==null || email==""){  
+  alert("the email is required.");  
+  return false;  
+  }  else if(phone.length<10){  
+  alert("Password must 10 characters long.");  
+  return false;  
+  }  
+  }
+</script>  
+<body>  
+ <div id="id01" class="modal">
+  <div class="container">
+<form action="get" name="myform" method="post" action="abc.jsp" onsubmit="return validateform()" >  
+    School User Id: <input type="text" name="userid"><br/> 
+Name: <input type="text" name="name"><br/>  
+    Phone#: <input type="text" name="phone"><br/>    
+Password: <input type="password" name="password"><br/> 
+    Email: <input type="text" name="email"><br/>  
+    Level:<br><select required>
+    <option value="f">-</option>
+  <option value="f">Undergraduate</option>
+  <option value="s">Graduate</option>
+  <option value="j">Professor</option>
+  <option value="sen">senior</option>
+</select> <br>
+       Major:<br><select required>
+    
+    <option value="f">-</option>
+  <option value="f">Informatics</option>
+  <option value="s">Information Technology</option>
+  <option value="j">Computer Science</option>
+  <option value="sen">Computer Engineering</option>
+</select> <br>
+Classes I like to teach:<select >
+    <option value="f">-</option>
+  <option value="volvo">Info-101</option>
+  <option value="saab">Info-201</option>
+  <option value="opel">CS-231</option>
+  <option value="audi">IT-14600</option>
+   < option value="audi">IT-1700</option>
+     <option value="audi">Other..</option>
+</select><br>
+    Other:
+    <input type="text" name="other"><br/> 
+     Exprience:<br> <textarea rows="4" cols="40" name="comment" form="usrform">
+Any experience?...</textarea> 
+    <br><input type="checkbox" checked="checked"> Remember me
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="button"  class="signupbtn">Register</button> 
+     <button type="button"  class="cancelbtn">Cancel</button>
+</form> 
+    </div></div></body>
+     </html>
+    
